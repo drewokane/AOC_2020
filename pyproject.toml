@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "advent_of_code_2020"
+version = "0.1.0"
+description = ""
+authors = ["Drew O'Kane <drew.okane@autodesk.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
